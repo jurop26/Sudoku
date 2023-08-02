@@ -1,0 +1,30 @@
+body {
+  background-color: burlywood;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(9, 50px);
+  grid-template-rows: repeat(9, 50px);
+  /* row-gap: 50px; */
+  gap: 10px;
+  /* column-gap: 5px; */
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: ; */
+}
+
+.board :nth-child(even) {
+  background-color: chocolate;
+}
+
+.board :nth-child(odd) {
+  background-color: brown;
+}
+
+.board div {
+  color: yellow;
+  font-size: 3em;
+  text-align: center;
+  /* border: 2px solid black; */
+}
